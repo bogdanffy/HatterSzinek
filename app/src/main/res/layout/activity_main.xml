@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    tools:context="com.example.bogdan.a14p_bogdanffy_bogdan_hatterszinek.MainActivity">
+
+    <Button
+        android:id="@+id/pirosButton"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:text="Piros"
+        tools:layout_marginRight="0dp"
+        tools:layout_alignParentTop="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/feherButton"
+        android:layout_alignRight="@+id/zoldButton"
+        android:layout_alignEnd="@+id/zoldButton" />
+
+    <Button
+        android:id="@+id/feherButton"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:text="Feher"
+        tools:layout_marginLeft="0dp"
+        tools:layout_alignParentTop="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/zoldButton"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:text="Zold"
+        tools:layout_centerHorizontal="true"
+        tools:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/feketeButton"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:text="Fekete"
+        tools:layout_centerHorizontal="true"
+        tools:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
